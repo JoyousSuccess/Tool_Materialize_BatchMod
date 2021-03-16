@@ -1,22 +1,25 @@
 # Materialize_BatchMod
 -----------------
 
-I made this primarily for personal use, but I might aswell share it
-all the output images are quickly made from default settings..
-i thiink you can set the settings and then run it and they will all use those settings.. i dunno lol
-
-very limited testing, as i made it very quickly for personal use, and I dont intend to support it, but it is open for anyone, it is a Mod of Materialize
+## What is it?
+A Modification of Materialize : https://github.com/BoundingBoxSoftware/Materialize  // https://boundingboxsoftware.com/materialize/
 
 
+takes a diffuse image and gives you H,N,S,Ao
 
+or 
+
+takes a folder of diffuse images and gives you H,N,S,Ao for each image
+
+## Basic
 ### in the _Materialize-BatchMod folder is the built Unity program
 
 on github here, is the Unity source files, with a _Materialize-BatchMod folder inside, 
 _Materialize-BatchMod is the built unity project, thats all you really need, you could drag and place it anywhere on your PC
 
-the images from the BatchMod output to:
-
-...\_Materialize-BatchMod\Output\
+> the images from the BatchMod output to:
+>
+> ...\_Materialize-BatchMod\Output\
 
 
 
@@ -49,6 +52,15 @@ there is two modes
 2. select the first file in the folder you want to process,  its advisable that the entire contents of the folder is entirely diffuse texture images (i personally only use .png so its only tested with .png)
 3. the processes will run, outputting H, N, S, Ao images into ...\_Materialize-BatchMod\Output\ folder
 4. the Files x / Max will increase, the left indicator flashes after each file is completed, and the right indicator will be green when the entire folder processes is complete
+
+
+
+## Note : 
+*I made this primarily for personal use, but I might aswell share it
+all the output images are quickly made from default settings..
+i thiink you can set the settings and then run it and they will all use those settings.. i dunno lol*
+
+*very limited testing, as i made it very quickly for personal use, and I dont intend to support it, but it is open for anyone, it is a Mod of Materialize*
 
 
 # Enjoy ! 
